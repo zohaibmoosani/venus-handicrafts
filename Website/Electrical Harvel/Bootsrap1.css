@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+  }
+  
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    
+ }
+ #logo{
+  width: 50px;
+  height: 50px; 
+  margin-top: -10px;
+}
+#co{
+  background-color: black;
+ }
+#span{
+ background-color: white;
+}
+ #b{
+   color: orange;
+   font-size: 30px;
+   font-family: serif;
+   font-style: oblique;
+   margin-top: 10px;
+  }
+ #c{
+  color: orange;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: serif;
+   font-style: oblique;
+   margin-top: 10px
+ }
+.a{
+    background-color: lightgray;  
+    margin-top: 10%;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+/* ----------header---------- */
+#c1{
+  background-image: url(harvel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#c2{
+  background-color: rgba(0, 0, 0, 0.815);
+}
+.head1{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Times New Roman';
+  padding-top: 12%;
+  font-weight: bold;
+  animation: text 3s 1;
+}
+
+.head2{
+  color: white;
+    font-size: 20px;
+   text-align: center;
+   font-weight: bolder;
+  }
+  /* -----------home page body------------ */
+  #h1{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  #head3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #p1{
+    text-align: center;
+  }
+  #col1{
+    text-align: center;
+    background-color: azure;
+  }
+  .heater{
+    width: 20%;
+    height: 10%;
+    box-shadow: 0 0 7px 9px rgba(130, 134, 136, 0.5);
+  }
+  .head4{
+    font-weight:bold;
+    font-style: italic;
+  }
+  #h2{
+    text-align: center;
+  }
+  .bar .imgbox{
+    margin-top: 10px;
+    transform: rotateY(0deg);
+    transition: all 1s;
+  }
+  .bar:hover .imgbox{
+    transform: rotateY(-90deg);
+  }
+  .bar .textbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    transform: rotateY(90deg);
+    transition: all 1s;
+  }
+  .bar:hover .textbox{
+    transform: rotateY(0deg);
+  }
+  .global h2,h3{
+      font-size: 50px;
+      text-align: center;
+    }
+    .global p{
+      line-height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      text-align: center;
+    } 
+    #content{
+      background-image: url(global.jpg);
+    }
+    #contact{
+      text-align: center;
+      font-size: xx-large;
+      font-weight: bold ;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      margin: 25%;
+    }
+    /* ------------footer-------------- */
+    .footer-distributed{
+      background-color: #2c292f;
+      font: bold 16px sans-serif;
+      padding: 50px 50px 60px 50px;
+      margin-top: 80px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+    }
+    .footer-distributed .footer-left{
+      width: 30%;
+    }
+    
+    .footer-distributed h3{
+      color:  #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      margin: 0;
+    }
+      
+    .footer-distributed h3 span{
+      color:  #e0ac1c;
+    }
+    
+    .footer-distributed .footer-links{
+      color:  #ffffff;
+      margin: 20px 0 12px;
+    }
+    
+    .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+    }
+    
+    .footer-distributed .footer-company-name{
+      color:  #8f9296;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+    }
+    
+    /* Footer Center */
+    
+    .footer-distributed .footer-center{
+      width: 35%;
+    }
+    .footer-distributed .footer-center i{
+      background-color:  #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+    }
+    
+    .footer-distributed .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+    }
+    
+    .footer-distributed .footer-center p{
+      display: inline-block;
+      color: #ffffff;
+      margin:0;
+    }
+    
+    .footer-distributed .footer-center p span{
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+    }
+    
+    .footer-distributed .footer-center p a{
+      color:  #e0ac1ca4;
+      text-decoration: none;;
+    }
+    
+    
+    .footer-distributed .footer-right{
+      width: 30%;
+    }
+    
+    .footer-distributed .footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+    
+    .footer-distributed .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .footer-distributed .footer-icons{
+      margin-top: 25px;
+    }
+    
+    .footer-distributed .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color:  #33383b;
+      border-radius: 12px;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;    
+    }
+    @media (max-width: 880px) {
+    
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+    }
+    /* -----------------about----------------- */
+    #h{
+      text-align: center;
+      color: orange;
+      font-weight: bold;
+      font-size: 50px;
+      font-family: sans-serif;
+    }
+    #p{
+      text-align: center;
+      line-height: 35px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+    #h3{
+      text-align: center;
+      background-color: #e0ac1c;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    #p1{
+      text-align: start;
+      font-family: monospace;
+    }
+    #p2{
+      text-align: center;
+      line-height: 35px;
+      color: black;
+      font-size: 17px;  
+  }
+  img{
+    box-shadow: 10px 10px 10px gray;
+  }
+  
